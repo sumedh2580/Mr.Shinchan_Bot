@@ -1372,7 +1372,7 @@ __help__ = """
 Well basically there is 2 reasons to use Federations:
 1. You have many chats and want to ban users in all of them with 1 command
 2. You want to subscribe to any of the antispam Federations to have your chat(s) protected.
-In both cases Daisy will help you.
+In both cases Shinchan will help you.
 <b>Arguments types help:</b>
 <code>()</code>: required argument
 <code>(user)</code>: required but you can reply on any user's message instead
