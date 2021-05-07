@@ -48,7 +48,7 @@ def download_images(images):
 
                     r = str(r, "utf-8")
                 except UnicodeDecodeError:
-                    with open("logo@DaisyXBOT.jpg", "wb+") as f:
+                    with open("logo@ShinchanHelper_Bot.jpg", "wb+") as f:
                         f.write(r)
                     count += 1
             except:
@@ -80,11 +80,11 @@ async def logogen(client, message):
     except BaseException:
         typeo = "name"
         await pablo.edit(
-            "Give name and type for logo Idiot. like `/logogen Daisy:Robot`"
+            "Give name and type for logo Idiot. like `/logogen Shinchan:Robot`"
         )
     name = lmao[0]
     mainne(name, typeo)
-    pate = "logo@DaisyXBOT.jpg"
+    pate = "logo@ShinchanHelper_Bot.jpg"
     await client.send_photo(message.chat.id, pate)
     try:
         os.remove(pate)
