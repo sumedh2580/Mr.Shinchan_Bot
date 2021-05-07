@@ -47,7 +47,7 @@ async def alive(event):
             return
     sender = await event.get_sender()
     fname = sender.first_name
-    m = await event.reply("Generating CC...Pls Weit.")
+    m = await event.reply("Generating CC...Pls Wait...")
     ok = event.pattern_match.group(1)
     async with ubot.conversation("@ccgen_robot") as bot_conv:
         await bot_conv.send_message("/generate")
@@ -82,7 +82,7 @@ async def alive(event):
     sender = await event.get_sender()
     fname = sender.first_name
     ok = event.pattern_match.group(1)
-    k = await event.reply("**Wait for Result.**")
+    k = await event.reply("**Wait for Result...**")
     start_time = datetime.datetime.now()
     async with ubot.conversation("@Carol5_bot") as bot_conv:
         await bot_conv.send_message(f"/key {ok}")
@@ -125,7 +125,7 @@ async def alive(event):
     sender = await event.get_sender()
     fname = sender.first_name
     ok = event.pattern_match.group(1)
-    k = await event.reply("**Wait for Result.**")
+    k = await event.reply("**Wait for Result...**")
     async with ubot.conversation("@Carol5_bot") as bot_conv:
         await bot_conv.send_message(f"/ss {ok}")
         await asyncio.sleep(9)
@@ -134,7 +134,7 @@ async def alive(event):
             await k.edit(response)
             return
         if "Your date is invalid" in response.text:
-            await k.edit("Format Wrong or invalid cc.")
+            await k.edit("Format Wrong or invalid cc...")
             return
         res = response.text
         text = f"{res.splitlines()[0]}\n"
@@ -158,7 +158,7 @@ async def alive(event):
     sender = await event.get_sender()
     fname = sender.first_name
     ok = event.pattern_match.group(1)
-    k = await event.reply("**Wait for Result.**")
+    k = await event.reply("**Wait for Result...**")
     async with ubot.conversation("@Carol5_bot") as bot_conv:
         await bot_conv.send_message(f"/pp {ok}")
         await asyncio.sleep(14)
@@ -193,7 +193,7 @@ async def alive(event):
     ok = event.pattern_match.group(1)
     async with ubot.conversation("@Carol5_bot") as bot_conv:
         await bot_conv.send_message(f"/ch {ok}")
-        k = await event.reply("**Wait for Result.**")
+        k = await event.reply("**Wait for Result...**")
         await asyncio.sleep(18)
         response = await bot_conv.get_response()
         if "Try again after" in response.text:
@@ -226,7 +226,7 @@ async def alive(event):
     ok = event.pattern_match.group(1)
     async with ubot.conversation("@Carol5_bot") as bot_conv:
         await bot_conv.send_message(f"/au {ok}")
-        k = await event.reply("**Wait for Result.**")
+        k = await event.reply("**Wait for Result...**")
         await asyncio.sleep(18)
         response = await bot_conv.get_response()
         if "Try again after" in response.text:
@@ -256,7 +256,7 @@ async def alive(event):
             return
     sender = await event.get_sender()
     fname = sender.first_name
-    k = await event.reply("**Wait for Result.**")
+    k = await event.reply("**Wait for Result...**")
     ok = event.pattern_match.group(1)
     async with ubot.conversation("@Carol5_bot") as bot_conv:
         await bot_conv.send_message(f"/bin {ok}")
