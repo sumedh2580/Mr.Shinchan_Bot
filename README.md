@@ -4,47 +4,46 @@
 <h4 align="center">A Powerful, Smart And Simple Group Manager <br> ... Written with AioGram , Pyrogram and Telethon...</h4>
 <p align='center'>
   <a href="https://www.python.org/" alt="made-with-python"> <img src="https://img.shields.io/badge/Made%20with-Python-1f425f.svg?style=flat-square&logo=python&color=blue" /> </a>
-  <a href="https://github.com/rihan2575/Mr.Sinchan_Bot/graphs/commit-activity" alt="Maintenance"> <img src="https://img.shields.io/badge/Maintained%3F-yes-green.svg?style=flat-square" /> </a>
+  <a href="https://github.com/rihan2575/Mr.Shinchan_Bot/graphs/commit-activity" alt="Maintenance"> <img src="https://img.shields.io/badge/Maintained%3F-yes-green.svg?style=flat-square" /> </a>
 </p>
 
-<p align="center"><a href="https://t.me/Mr_Sinchan_Support"><img src="https://telegra.ph/file/9a0f259127fe5ed6b2a27.jpg" width="400"></a></p>
+<p align="center"><a href="https://t.me/Mr_Shinchan_Support"><img src="https://telegra.ph/file/9a0f259127fe5ed6b2a27.jpg" width="400"></a></p>
 <p align="center">
     <a href="https://app.codacy.com/manual/rihan2575/Mr.Sinchan_Bot/dashboard"> <img src="https://img.shields.io/codacy/grade/4d58f2a402b54aed8a7d95f7add45a81?color=brightgreen&logo=codacy&logoColor=green&style=for-the-badge" alt="Codacy" /></a>
-    <a href="https://github.com/rihan2575/Mr.Sinchan_Bot"> <img src="https://img.shields.io/github/repo-size/teamdaisyx/daisyx?color=orange&logo=github&logoColor=green&style=for-the-badge" /></a>
-    <a href="https://github.com/rihan2575/Mr.Sinchan_Bot/commits/inukaasith"> <img src="https://img.shields.io/github/last-commit/teamdaisyx/daisyx?color=brown&logo=github&logoColor=green&style=for-the-badge" /></a>
-    <a href="https://github.com/rihan2575/Mr.Sinchan_Bot/issues"> <img src="https://img.shields.io/github/issues/teamdaisyx/daisyx?color=blueviolet&logo=github&logoColor=green&style=for-the-badge" /></a>
-    <a href="https://github.com/rihan2575/Mr.Sinchan_Bot/network/members"> <img src="https://img.shields.io/github/forks/teamdaisyx/daisyx?color=red&logo=github&logoColor=green&style=for-the-badge" /></a>  
+    <a href="https://github.com/rihan2575/Mr.Shinchan_Bot"> <img src="https://img.shields.io/github/repo-size/teamdaisyx/daisyx?color=orange&logo=github&logoColor=green&style=for-the-badge" /></a>
+    <a href="https://github.com/rihan2575/Mr.Shinchan_Bot/commits/inukaasith"> <img src="https://img.shields.io/github/last-commit/teamdaisyx/daisyx?color=brown&logo=github&logoColor=green&style=for-the-badge" /></a>
+    <a href="https://github.com/rihan2575/Mr.Shinchan_Bot/issues"> <img src="https://img.shields.io/github/issues/teamdaisyx/daisyx?color=blueviolet&logo=github&logoColor=green&style=for-the-badge" /></a>
+    <a href="https://github.com/rihan2575/Mr.Shinchan_Bot/network/members"> <img src="https://img.shields.io/github/forks/teamdaisyx/daisyx?color=red&logo=github&logoColor=green&style=for-the-badge" /></a>  
     <a href="https://pypi.org/project/Telethon/"> <img src="https://img.shields.io/pypi/v/telethon?color=yellow&label=telethon&logo=python&logoColor=green&style=for-the-badge" /></a>
 </p>
 
-> ⭐️ Thanks to everyone who starred Sinchan, That is the greatest pleasure we have !
+> ⭐️ Thanks to everyone who starred Shinchan, That is the greatest pleasure we have !
 
 ## Avaiilable on Telegram as [@ShinchanHelper_Bot](https://t.me/ShinchanHelper_Bot)
 
 
 # 🏃‍♂️ Easy Deploy 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/TeamDaisyX/DaisyX.git)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/rihan2575/Mr.Shinchan_Bot.git)
 
 [Generate String Session](https://replit.com/@SpEcHiDe/GenerateStringSession)  << Select telethon
 
-<a href="https://www.youtube.com/watch?v=yar61k_hEHQ"><img src="https://img.shields.io/badge/How%20To-Deploy-red.svg?logo=Youtube"></a>
 
 # ❤️ Support
-<a href="https://t.me/DaisySupport_Official"><img src="https://img.shields.io/badge/Join-Telegram%20Channel-red.svg?logo=Telegram"></a>
-<a href="https://t.me/DaisyXupdates"><img src="https://img.shields.io/badge/Join-Telegram%20Group-blue.svg?logo=telegram"></a>
+<a href="https://t.me/Mr_Shinchan_Support"><img src="https://img.shields.io/badge/Join-Telegram%20Channel-red.svg?logo=Telegram"></a>
+<a href="https://t.me/Mr_Shinchan_Updates"><img src="https://img.shields.io/badge/Join-Telegram%20Group-blue.svg?logo=telegram"></a>
 
 ### Self-hosting (For Devs) ⚔
 ```sh
 # Install Git First (apt-instll git)
-$ git clone https://github.com/TeamDaisyX/DaisyX
-$ cd DaisyX
+$ git clone https://github.com/rihan2574/Mr.Shinchan_Bot
+$ cd Mr.Shinchan_Bot
 # Upgrade sources
 $ bash deploy.sh
 # Install All Requirements 
 $ pip(3) install -r requirements.txt
-# Rename ./DaisyX/data/bot_conf.yaml.example to bot_conf.yaml and fill
+# Rename ./Mr.Shinchan_Bot/data/bot_conf.yaml.example to bot_conf.yaml and fill
 # Start Bot 
-$ python(3) -m DaisyX
+$ python(3) -m Mr.Shinchan_Bot
 ```
 
 ### Mandatory Vars 📒
@@ -121,7 +120,7 @@ Anything missing kindly let us know at [Daisy Support](https://t.me/DaisySupport
 
 > This project exists thanks to these awesome developers and their codes and contributions.
 
-<a href="https://github.com/TeamDaisyX/DaisyX/graphs/contributors"><img src="https://opencollective.com/teamdaisyxdaisy/contributors.svg?width=890&button=false" /></a>
+<a href="https://github.com/rihan2575/Mr.Shinchan_Bot/graphs/contributors"><img src="https://opencollective.com/teamdaisyxdaisy/contributors.svg?width=890&button=false" /></a>
 
 > And credits goes to all who supported, all who helped and API & environmental equirement package devs and all projects helped in making this project.
 > Special thanks to you for using bot
