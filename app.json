@@ -1,16 +1,15 @@
 {
-  "name": "DaisyX",
-  "description": "?",
+  "name": "Mr.Shinchan_Bot",
+  "description": "A TELEGRAM GROUP MANAGEMENT BOT BASED ON AIOGRAM PYROGRAM AND TELETHON",
   "keywords": [
     "telegram",
-    "Daisy",
+    "Mr.Shinchan",
     "plugin",
-    "telegram-DaisyX",
+    "telegram-Mr.Shinchan_Bot",
     "fuck-TG"
   ],
-  "repository": "https://github.com/TeamDaisyX/Daisy-x",
-  "website": "daisyproject.studio",
-  "success_url": "t.me/DaisyXUpdates",
+  "repository": "https://github.com/rihan2575/Mr.Shinchan_Bot",
+  "success_url": "https://t.me/Mr_Shinchan_Updates",
   "buildpacks": [
    {
      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
@@ -58,7 +57,7 @@
     },
     "UPSTREAM_REPO_URL": {
       "description": "Only for fork users else don't change",
-      "value": "https://github.com/TeamDaisyX/DaisyX-v2.0",
+      "value": "https://github.com/rihan2575/Mr.Shinchan_Bot",
       "required": false  
     },
     "API_PORT": {
