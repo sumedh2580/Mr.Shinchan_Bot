@@ -766,7 +766,7 @@ __mod_name__ = "Notes"
 
 __help__ = """
 Sometimes you need to save some data, like text or pictures. With notes, you can save any types of Telegram's data in your chats.
-Also notes perfectly working in PM with Shinchan.
+Also notes perfectly working in PM with King Of Darkness.
 
 <b>Available commands:</b>
 - /save (name) (data): Saves the note.
@@ -810,7 +810,7 @@ Every note can contain special settings, for example you can change formatting m
 <code>%PREVIEW</code>: Enables the links preview in saved note
 
 <b>Saving notes from other Marie style bots:</b>
-Daisy can save notes from other bots, just reply /save on the saved message from another bot, saving pictures and buttons supported aswell.
+Daisy can save notes from other bots, just reply /save on the saved message from another bot, saving pictures and buttons supported as well.
 
 <b>Retrieving notes without the formatting:</b>
 To retrieve a note without the formatting, use <code>/get (name) raw</code> or <code>/get (name) noformat</code>
