@@ -78,7 +78,7 @@ async def connect_to_chat_direct(message, strings):
         await def_connect_chat(message, user_id, chat_id, chat_title)
     except (BotBlocked, CantInitiateConversation):
         await message.reply(strings["connected_pm_to_me"].format(chat_name=chat_title))
-        redis.set("Shinchan_connected_start_state:" + str(user_id), 1)
+        redis.set("KingOfDarkness_connected_start_state:" + str(user_id), 1)
 
 
 # In pm without args - show last connected chats
