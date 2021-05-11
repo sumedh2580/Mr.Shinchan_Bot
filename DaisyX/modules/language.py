@@ -78,7 +78,7 @@ async def select_lang_keyboard(message, strings, edit=False):
 
     markup.add(
         InlineKeyboardButton(
-            strings["crowdin_btn"], url="https://t.me/Daisysupport_official"
+            strings["crowdin_btn"], url="https://t.me/cuddles_of_pandas"
         )
     )
     if edit:
@@ -167,12 +167,12 @@ async def __import__(chat_id, data):
 __mod_name__ = "Languages"
 
 __help__ = """
-This module is dedicated towards utlising Shinchan's localization feature! You can also <a href='https://crowdin.com/project/DaisyXx'>contribute</a> for improving localization in Shinchan!
+This module is dedicated towards utlising King Of Darkness's localization feature! You can also <a href='https://crowdin.com/project/DaisyXx'>contribute</a> for improving localization in King Of Darkness!
 
 <b>Available commands:</b>
 - /lang: Shows a list of avaible languages
 - /lang (language codename): Sets a language
 
 <b>Example:</b> <code>/lang</code>
-Shinchan will send you bunch of inline buttons where you can select your prefered language interatively without any hassles!
+King of Darkness will send you bunch of inline buttons where you can select your prefered language interatively without any hassles!
 """
