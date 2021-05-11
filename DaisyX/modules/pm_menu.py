@@ -45,7 +45,7 @@ def help_markup(modules):
 
 
 STICKERS = (
-    "CAACAgEAAxkBAAEJwWVglOja0HWpQXQy92ha54w5FZWfDQACHAEAAkoyqERkBwavKfnbIh8E",
+    "CAACAgUAAxkBAANZYJpjniea3qAPGkbvC5_uuJexB5cAAqkCAAJ_atBU7NodjdncDW8fBA",
 )
 
 
@@ -72,19 +72,19 @@ async def get_start_func(message, strings, edit=False):
     buttons.add(
         InlineKeyboardButton(strings["btn_lang"], callback_data="lang_btn"),
         InlineKeyboardButton(
-            strings["btn_source"], url="https://github.com/rihan2575/Mr.Shinchan_Bot"
+            strings["btn_source"], url="https://github.com/sumedh2580/Mr.Shinchan_Bot"
         ),
     )
     buttons.add(
-        InlineKeyboardButton(strings["btn_channel"], url="https://t.me/Mr_Shinchan_Updates"),
+        InlineKeyboardButton(strings["btn_god"], url="https://t.me/sumedh2580"),
         InlineKeyboardButton(
-            strings["btn_group"], url="https://t.me/Mr_Shinchan_Support"
+            strings["btn_group"], url="https://t.me/cuddles_of_panda"
         ),
     )
     buttons.add(
         InlineKeyboardButton(
-            "👸🏼 Add Shinchan to your group",
-            url=f"https://telegram.me/ShinchanHelper_bot?startgroup=true",
+            "🔥 Add King Of Darkness",
+            url=f"https://telegram.me/BROKYLIN_THE_KING_OF_DARKNESS_BOT?startgroup=true",
         )
     )
     # Handle error when user click the button 2 or more times simultaneously
@@ -126,7 +126,7 @@ async def help_cmd(message, strings):
 async def help_cmd_g(message, strings):
     text = strings["btn_group_help"]
     button = InlineKeyboardMarkup().add(
-        InlineKeyboardButton(text=text, url="https://t.me/ShinchanHelper_Bot?start")
+        InlineKeyboardButton(text=text, url="https://t.me/BROKYLIN_THE_KING_OF_DARKNESS_BOT?start")
     )
     await message.reply(strings["help_header"], reply_markup=button)
 
