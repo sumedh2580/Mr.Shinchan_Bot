@@ -167,7 +167,7 @@ async def bot_stop(message):
 
 @register(cmds="restart", is_owner=True)
 async def restart_bot(message):
-    await message.reply("Shinchan will be restarted...")
+    await message.reply("King Of Darkness will be restarted...")
     args = [sys.executable, "-m", "DaisyX"]
     os.execl(sys.executable, *args)
 
@@ -238,7 +238,7 @@ async def get_event(message):
 @register(cmds="stats", is_op=True)
 async def stats(message):
     if message.from_user.id in skemmers:
-        text = f"<b>Shinchan {DAISY_VERSION} stats</b>\n"
+        text = f"<b>King Of Darkness {DAISY_VERSION} stats</b>\n"
 
         for module in [m for m in LOADED_MODULES if hasattr(m, "__stats__")]:
             text += await module.__stats__()
