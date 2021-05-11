@@ -4,7 +4,7 @@ echo "
 
 DAISYX v2 -Base Aiogram
 (C) 2020-2021 by @TEAMDAISYX
-Support Chat is @DAISYSUPPORT_OFFICIAL.
+Support Chat is @cuddles_of_pandas.
 
 ***************************************
 "
@@ -30,15 +30,15 @@ ech_final () {
     echo "
     
 =++---------------------------------------------++=
-DAISYX. Deployed Successfully
+King Of Darkness. Deployed Successfully
 
  ***************************
- * |D| |A| |I| |S| |Y| |X| *
+ * |K| |I| |N| |G| |O||F| |D| |A| |R| |K| |N| |E| |S| |S| *
  ******************* v2.0 ** 
 
-Thanks for deploying DaisyX
+Thanks for deploying King Of Darkness
 (C) 2020-2021 by @TEAMDAISYX
-Support Chat is @DAISYSUPPORT_OFFICIAL.
+Support Chat is @cuddles_of_pandas.
 =++---------------------------------------------++=
                        Greetings from dev team :)
     "
