@@ -20,7 +20,7 @@ __mod_name__ = "Music Player"
 __help__ = """
           <b>》** The King Of Darkness Music ** 《</b>
             
- King Of Darkness plays plays music in your group's voice chat
+ King Of Darkness plays music in your group's voice chat
  
  Assistant name >> @King_Of_Darkness_Music_Assistant
  
