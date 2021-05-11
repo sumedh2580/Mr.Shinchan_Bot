@@ -1,16 +1,16 @@
 {
-  "name": "Mr.Shinchan_Bot",
-  "logo": "https://telegra.ph/file/9a0f259127fe5ed6b2a27.jpg",
+  "name": "King_Of_Darkness",
+  "logo": "https://telegra.ph/file/fc7eee2f0a246e8976ecf.jpg",
   "description": "A TELEGRAM GROUP MANAGEMENT BOT BASED ON AIOGRAM PYROGRAM AND TELETHON",
   "keywords": [
     "telegram",
-    "Mr.Shinchan",
+    "King_Of_Darkness",
     "plugin",
-    "telegram-Mr.Shinchan_Bot",
+    "telegram-King_Of_Darkness",
     "fuck-TG"
   ],
-  "repository": "https://github.com/rihan2575/Mr.Shinchan_Bot",
-  "success_url": "https://t.me/Mr_Shinchan_Updates",
+  "repository": "https://github.com/sumedh2580/Mr.Shinchan_Bot",
+  "success_url": "https://t.me/cuddles_of_pandas",
   "buildpacks": [
    {
      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
@@ -58,7 +58,7 @@
     },
     "UPSTREAM_REPO_URL": {
       "description": "Only for fork users else don't change",
-      "value": "https://github.com/rihan2575/Mr.Shinchan_Bot",
+      "value": "https://github.com/sumedh2580Mr.Shinchan_Bot",
       "required": false  
     },
     "API_PORT": {
