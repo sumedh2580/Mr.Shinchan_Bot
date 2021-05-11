@@ -18,18 +18,18 @@
 
 __mod_name__ = "Music Player"
 __help__ = """
-          <b>》** Shinchan Music ** 《</b>
+          <b>》** The King Of Darkness Music ** 《</b>
             
- ShinchanMusic plays plays music in your group's voice chat
+ King Of Darkness plays plays music in your group's voice chat
  
- Assistant name >> @Mr_Shinchan_Helper
+ Assistant name >> @King_Of_Darkness_Music_Assistant
  
 <b> Setting up </b>
 
 1) Make bot admin
 2) Start a voice chat
 3) Try `/play [song name]` for the first time by an admin
-*) If userbot joined enjoy music, If not add @Mr_Shinchan_Helper to your group and retry
+*) If userbot joined enjoy music, If not add @King_Of_Darkness_Music_Assistant to your group and retry
 
 <b> Commands </b>
 
@@ -53,7 +53,7 @@ __help__ = """
 =>> More tools 🧑‍🔧
 
   /admincache: Updates admin info of your group. Try if bot isn't recognize admin
-  /userbotjoin: Invite @Mr_Shinchan_Helper Userbot to your chat
+  /userbotjoin: Invite @King_Of_Darkness_Music_Assistant Userbot to your chat
 
 *Player cmd and all other cmds except /play, /current  and /playlist  are only for admins with manage group
 
