@@ -102,20 +102,20 @@ async def hmm(_, message):
         lel = await edit_or_reply(message, "`Processing...`")
         lol = add_chat(int(message.chat.id))
         if not lol:
-            await lel.edit("Shinchan AI Already Activated In This Chat")
+            await lel.edit("King Of Darkness AI Already Activated In This Chat")
             return
         await lel.edit(
-            f"Shinchan AI Successfully Added For Users In The Chat {message.chat.id}"
+            f"King Of Darkness AI Successfully Added For Users In The Chat {message.chat.id}"
         )
 
     elif status == "OFF" or status == "off" or status == "Off":
         lel = await edit_or_reply(message, "`Processing...`")
         Escobar = remove_chat(int(message.chat.id))
         if not Escobar:
-            await lel.edit("Shinchan AI Was Not Activated In This Chat")
+            await lel.edit("King Of Darkness AI Was Not Activated In This Chat")
             return
         await lel.edit(
-            f"Shinchan AI Successfully Deactivated For Users In The Chat {message.chat.id}"
+            f"King Of Drakness AI Successfully Deactivated For Users In The Chat {message.chat.id}"
         )
 
     elif status == "EN" or status == "en" or status == "english":
@@ -160,7 +160,7 @@ async def hmm(client, message):
         test = test.replace("daisy", "Aco")
         test = test.replace("Daisy", "Aco")
         try:
-            URL = f"https://api.affiliateplus.xyz/api/chatbot?message={test}&botname=@ShinchanHelper_Bot&ownername=@TeamShinchanHelper"
+            URL = f"https://api.affiliateplus.xyz/api/chatbot?message={test}&botname=@BROKYLIN_THE_KING_OF_DARKNESS_BOT&ownername=@TeamDarkness"
             result = await fetch(URL)
         except:
             return
@@ -217,7 +217,7 @@ async def hmm(client, message):
         test = test.replace("daisy", "Aco")
         test = test.replace("Daisy", "Aco")
         try:
-            URL = f"https://api.affiliateplus.xyz/api/chatbot?message={test}&botname=@ShinchanHelper_Bot&ownername=@TeamShinchanHelper"
+            URL = f"https://api.affiliateplus.xyz/api/chatbot?message={test}&botname=@BROKYLIN_THE_KING_OF_DARKNESS_BOT&ownername=@TeamDarkness"
             result = await fetch(URL)
         except:
             return
@@ -286,7 +286,7 @@ async def inuka(client, message):
     test = test.replace("daisy", "Aco")
     test = test.replace("Daisy", "Aco")
     try:
-        URL = f"https://api.affiliateplus.xyz/api/chatbot?message={test}&botname=@ShinchanHelper_Bot&ownername=@TeamShinchanHelper"
+        URL = f"https://api.affiliateplus.xyz/api/chatbot?message={test}&botname=@BROKYLIN_THE_KING_OF_DARKNESS_BOT&ownername=@TeamDarkness"
         result = await fetch(URL)
     except:
         return
@@ -302,7 +302,7 @@ async def inuka(client, message):
 
 
 @daisyx.on_message(
-    filters.regex("Shinchan|shinchan|Shinchan|shinchan|Shinchan")
+    filters.regex("Darkness|darkness|Darkness|darkness|Darkness")
     & ~filters.bot
     & ~filters.via_bot
     & ~filters.forwarded
@@ -359,7 +359,7 @@ async def inuka(client, message):
     test = test.replace("daisy", "Aco")
     test = test.replace("Daisy", "Aco")
     try:
-        URL = f"https://api.affiliateplus.xyz/api/chatbot?message={test}&botname=@ShinchanHelper_Bot&ownername=@TeamShinchanHelper"
+        URL = f"https://api.affiliateplus.xyz/api/chatbot?message={test}&botname=@BROKYLIN_THE_KING_OF_DARKNESS_BOT&ownername=@TeamDarkness"
         result = await fetch(URL)
     except:
         return
@@ -378,7 +378,7 @@ async def inuka(client, message):
 
 __help__ = """
 <b> Chatbot </b>
-SHINCHAN AI 3.0 IS THE ONLY AI SYSTEM WHICH CAN DETECT & REPLY UPTO 200 LANGUAGES
+King Of Drakness AI 3.0 IS THE ONLY AI SYSTEM WHICH CAN DETECT & REPLY UPTO 200 LANGUAGES
 
  - /chatbot [ON/OFF]: Enables and disables AI Chat mode (EXCLUSIVE)
  - /chatbot EN : Enables English only chatbot
